@@ -15,11 +15,14 @@ indent_mode=2
 [project]
 name=LearnAngularJS
 base_path=/home/davidloo/dev/LearnAngularJS
+description=
 
 [long line marker]
 long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=0
-FILE_NAME_0=0;HTML;0;EUTF-8;1;1;0;%2Fhome%2Fdavidloo%2Fdev%2FLearnAngularJS%2FGetStarted%2Fhello.html;0;4
+current_page=2
+FILE_NAME_0=322;HTML;0;EUTF-8;1;1;0;%2Fhome%2Fdavidloo%2Fdev%2FLearnAngularJS%2FGetStarted%2Fhello.html;0;4
+FILE_NAME_1=194;HTML;0;EUTF-8;1;1;0;%2Fhome%2Fdavidloo%2Fdev%2FLearnAngularJS%2FControllers%2Findex.html;0;4
+FILE_NAME_2=14;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdavidloo%2Fdev%2FLearnAngularJS%2FControllers%2Fapp.js;0;4
