@@ -2,12 +2,12 @@ angular.module('appServiceModule', []).
 	factory('messageServiceOne',[function(){
 		return {
 			sayHello: function() {
-				return "Hello, World from a Factory";
+				return 'Hello, World!';
 			}
 		};
 	}]).
 	service('messageServiceTwo', [function(){
 		this.sayHello = function() {
-			return "Hello, World from a Service";
+			return 'Hello, World!';
 		};
 	}]);

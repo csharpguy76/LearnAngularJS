@@ -1,7 +1,13 @@
 angular.module('appControllerModule',[]).
 	controller('AppControllerOne',['$scope', 'messageServiceOne',function($scope, messageServiceOne) {
-		$scope.message = messageServiceOne.sayHello();
+		$scope.message = '';
+		$scope.showMessage = function() {
+			$scope.message = messageServiceOne.sayHello();
+		};
 	}]).
 	controller('AppControllerTwo',['$scope', 'messageServiceTwo',function($scope, messageServiceTwo) {
-		$scope.message = messageServiceTwo.sayHello();
+		$scope.message = '';
+		$scope.showMessage = function() {
+			$scope.message = messageServiceTwo.sayHello();
+		};
 	}]);

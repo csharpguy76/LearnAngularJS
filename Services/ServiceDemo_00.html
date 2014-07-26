@@ -8,11 +8,13 @@
 </head>
 	<body>
 		<div ng-controller="AppControllerOne">
-			{{message}}
+			<button ng-click="showMessage()">Say Hello from the Factory</button><br>
+			<h2>{{message}}</h2>
 		</div>
 		<hr>
 		<div ng-controller="AppControllerTwo">
-			{{message}}
+			<button ng-click="showMessage()">Say Hello from the Service</button><br>
+			<h2>{{message}}</h2>
 		</div>
 	</body>
 </html>
