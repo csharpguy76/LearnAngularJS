@@ -1,13 +1,23 @@
 angular.module('appServiceModule', []).
-	factory('messageServiceOne',[function(){
-		return {
-			sayHello: function() {
-				return 'Hello, World!';
+	provider('messageServiceThree', function() {
+		var name;
+		
+		this.setName = function (value)
+		{
+			name = value;
+		};
+		
+		this.$get = function() {
+			return {
+				sayHello: 'Hello, World! from ' + name
 			}
 		};
-	}]).
-	service('messageServiceTwo', [function(){
-		this.sayHello = function() {
-			return 'Hello, World!';
+	}).
+	factory('messageServiceOne',function(){
+		return {
+			sayHello: 'Hello, World! from Factory'
 		};
-	}]);
+	}).
+	service('messageServiceTwo', function(){
+		this.sayHello = 'Hello, World! from Service';
+	});
