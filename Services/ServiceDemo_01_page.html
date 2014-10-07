@@ -1,0 +1,24 @@
+<!-- Service Demo 1 -->
+<html ng-app="app">
+<head>
+	<title>Learn AngularJS Demo - Using Services</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.14/angular.min.js"></script>
+	<script src="ServiceDemo_01.js"></script>
+</head>
+<body>
+	<div ng-controller="appController1">
+		<label>Name:</label>
+		<input ng-model="Person.name" />
+		<label>Age:</label>
+		<input ng-model="Person.age" />
+		<pre>{{Person}}</pre>
+	</div>
+	<div ng-controller="appController2">
+		<label>Name:</label>
+		<input ng-model="Person.name" />
+		<label>Age:</label>
+		<input ng-model="Person.age" />
+		<pre>{{Person}}</pre>
+	</div>
+</body>
+</html>

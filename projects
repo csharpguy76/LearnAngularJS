@@ -22,7 +22,7 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=7
+current_page=13
 FILE_NAME_0=322;HTML;0;EUTF-8;1;1;0;%2Fhome%2Fdavidloo%2Fdev%2FLearnAngularJS%2FGetStarted%2Fhello.html;0;4
 FILE_NAME_1=325;HTML;0;EUTF-8;1;1;0;%2Fhome%2Fdavidloo%2Fdev%2FLearnAngularJS%2FControllers%2FControllerDemo_00.html;0;4
 FILE_NAME_2=160;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdavidloo%2Fdev%2FLearnAngularJS%2FControllers%2FControllerDemo_00.js;0;4
@@ -30,5 +30,10 @@ FILE_NAME_3=0;HTML;0;EUTF-8;1;1;0;%2Fhome%2Fdavidloo%2Fdev%2FLearnAngularJS%2FCo
 FILE_NAME_4=0;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdavidloo%2Fdev%2FLearnAngularJS%2FControllers%2FControllerDemo_01.js;0;4
 FILE_NAME_5=206;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdavidloo%2Fdev%2FLearnAngularJS%2FControllers%2FControllerDemo_02.js;0;4
 FILE_NAME_6=328;HTML;0;EUTF-8;1;1;0;%2Fhome%2Fdavidloo%2Fdev%2FLearnAngularJS%2FControllers%2FControllerDemo_02.html;0;4
-FILE_NAME_7=352;HTML;0;EUTF-8;1;1;0;%2Fhome%2Fdavidloo%2Fdev%2FLearnAngularJS%2FServices%2FServiceDemo_00.html;0;4
-FILE_NAME_8=0;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdavidloo%2Fdev%2FLearnAngularJS%2FServices%2FServiceDemo_00.js;0;4
+FILE_NAME_7=390;HTML;0;EUTF-8;1;1;0;%2Fhome%2Fdavidloo%2Fdev%2FLearnAngularJS%2FServices%2FServiceDemo_00.html;0;4
+FILE_NAME_8=68;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdavidloo%2Fdev%2FLearnAngularJS%2FServices%2FServiceDemo_00.js;0;4
+FILE_NAME_9=478;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdavidloo%2Fdev%2FLearnAngularJS%2FServices%2FServiceDemo_00_Controller.js;0;4
+FILE_NAME_10=202;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdavidloo%2Fdev%2FLearnAngularJS%2FServices%2FServiceDemo_00_Service.js;0;4
+FILE_NAME_11=596;HTML;0;EUTF-8;1;1;0;%2Fhome%2Fdavidloo%2Fdev%2FLearnAngularJS%2FServices%2FServiceDemo_01.html;0;4
+FILE_NAME_12=393;Javascript;0;EUTF-8;1;1;0;%2Fhome%2Fdavidloo%2Fdev%2FLearnAngularJS%2FServices%2FServiceDemo_01.js;0;4
+FILE_NAME_13=302;HTML;0;EUTF-8;1;1;0;%2Fhome%2Fdavidloo%2Fdev%2FLearnAngularJS%2FServices%2FServiceDemo_01_page.html;0;4
