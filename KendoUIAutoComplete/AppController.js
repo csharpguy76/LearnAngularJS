@@ -1,6 +1,5 @@
-angular.module("app", ["kendo.directives"])
-.controller("AppController", ["$scope", function($scope) {
-	
+angular.module('app', ['kendo.directives'])
+.controller('AppController', ['$scope', function($scope) {
 	$scope.countries = [ 
 	  {name: 'Afghanistan', code: 'AF'}, 
 	  {name: 'Åland Islands', code: 'AX'}, 
