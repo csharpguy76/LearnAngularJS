@@ -1,0 +1,17 @@
+<html ng-app="app.demo">
+	<head>
+	<title>Learn AngularJS - Sharing Data Between Controllers</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.14/angular.min.js"></script>
+	<script src="SharingDataDemo.js"></script>
+	</head>
+<body>
+	<div ng-controller="AppController1">
+		<input type="text" ng-model="data.message" />
+		<div>{{data.message}}</div>
+	</div>
+	<div ng-controller="AppController2">
+		<input type="text" ng-model="data.message" />
+		<div>{{data.message}}</div>
+	</div>
+</body>
+</html>
