@@ -1,0 +1,18 @@
+<html ng-app="app.demo">
+	<head>
+	<title>Learn AngularJS - Filters</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.14/angular.min.js"></script>
+	<script src="app.js"></script>
+	</head>
+	<body ng-controller="AppController">
+		<div>
+		Numbers: {{ numbers }}
+		</div>
+		<div>
+		Even Numbers: {{ numbers | EvenNumbersOnly }}
+		</div>
+		<div>
+		Odd Nimbers: {{ numbers | OddNumbersOnly }}
+		</div>
+	</body>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+</html>
